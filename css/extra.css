@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+#imagenes
+   {
+	   text-align:center;
+   }
+ #imgs
+   {
+	   text-align:center;
+	}
+	img
+   {
+   opacity:0.4;
+   }
+   img:hover
+   {
+   opacity:1.0;
+   }
+   .rotar 
+	{ 
+	transform:rotate(0deg); 
+	transition-duration: 2s; 
+	-webkit-transform:rotate(0deg); 
+	-webkit-transition-duration: 2s; 
+	} 
+	.rotar:hover 
+	{ 
+	transform:rotate(360deg); 
+	transition-duration: 2s; 
+	-webkit-transform:rotate(360deg); 
+	-webkit-transition-duration: 2s; 
+	} 

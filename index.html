@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Violencia en el noviazgo</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/violencia.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+  <link rel="stylesheet" href="css/extra.css" />       
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Violencia en el noviazgo</h1>
+    <a href="#mipanel" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars"></a>
+    
+    <div data-role="panel" data-position="left" id="mipanel" data-display="overlay">
+   <ul data-role="listview">
+   <li><a href="#principal" id="btnprincipal"   data-transition="pop" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ui-corner-all">Violencia y sus fases</a></li>	
+   
+ <li><a href="#tipos" id="btntipos"   data-transition="pop" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all">Tipos de violencia</a></li>
+ 
+ <li><a href="#factores" id="btnfactores"   data-transition="pop" class="ui-btn ui-icon-alert ui-btn-icon-right ui-shadow ui-corner-all">Factores de riesgo</a></li>
+ 
+ <li><a href="#test" id="btntest"   data-transition="pop" class="ui-btn ui-icon-edit ui-btn-icon-right ui-shadow ui-corner-all">Test y ayuda</a></li>
+ 
+ <li><a href="#galeria" id="btngaleria"   data-transition="pop" class="ui-btn ui-icon-camera ui-btn-icon-right ui-shadow ui-corner-all">Galería</a></li>
+ 
+  <li><a href="#video" id="btnvideo"   data-transition="pop" class="ui-btn ui-icon-video ui-btn-icon-right ui-shadow ui-corner-all">Video</a></li>
+  </ul>	 		
+ </div>
+    
+  </div>
+
+  <div data-role="main" class="ui-content" align="justify">
+    <p>La violencia en las relaciones de noviazgo se define como todo ataque intencional de tipo sexual, físico o psicológico, de un miembro de la pareja contra el otro en una relación de noviazgo con el objeto de controlar o dominar a la persona. Una relación con estas características suele denominarse noviazgo violento.</p>
+    
+    <p>Es común que en este tipo de relaciones se tienda a caer en círculos viciosos de los cuales es difícil salir, puesto que el perpetrador tiende a estar arrepentido del acto cometido. Este es el motivo por el cual suele pedir disculpas, se comporta de manera cariñosa tratando de enmendar el error, alega que no volverá a pasar o que ella lo provocó y él/ella no quería, aunque tiempo después vuelva a cometer el mismo acto violento.</p>
+    
+    <p>Esta temática se inscribe dentro de la violencia en las relaciones de pareja pero se limita típicamente a parejas no convivientes, sin hijo(s) en común, no unidas por lazos económicos o institucionales, en general adolescentes o adultos jóvenes. En el caso de parejas heterosexuales, se inscribe dentro de la violencia de género y, en especial, de violencia contra la mujer.</p>
+  </div>
+  
+  <h3>Ciclo de la violencia:</h3>
+  <ol type="I">
+     <li>Primera Fase: denominada “Fase de Acumulación de Tensión” (las cuentas por cobrar). Se produce una sensación de pequeños episodios que llevan roces permanentes entre los miembros de pareja, con un incremento constante de la ansiedad y hostilidad.</li>
+     <br>
+     <li>Segunda Fase: denominada “Episodio Agudo”. En esta fase, toda la acumulación de tensión que se venía generando da lugar a una explosión violenta y puede variar desde un empujo, gritos hasta el homicidio.</li>
+     <br>
+     <li>Tercera Fase: “Luna de Miel”. Se produce el arrepentimiento por parte de la persona agresora y promete no volverlo hacer, se ofrecen disculpas, se regalan dulces, chocolates, etc. Muchas personas, en la fase de “Luna de Miel”, consideran el arrepentimiento como una muestra de amor y, por lo tanto, no ponen límites.</li>
+    </ol>  
+
+<div id="imgs" align="center"> 
+	<img class="rotar" id="animated_img" src="images/violencia/fase_1.jpg" style="height:120px;width:120px;"> 
+	<img class="rotar" id="animated_img" src="images/violencia/fase_2.jpg" style="height:120px;width:120px;"> 
+	<img class="rotar" id="animated_img" src="images/violencia/fase_3.png" style="height:120px;width:120px;"> 
+	</div> 
+    
+<h3>Consecuencias.</h3>
+<p>Las investigaciones han señalado que la violencia en el noviazgo tiene consecuencias como: depresión, baja autoestima, bajo rendimiento escolar, miedo hacia la pareja, falta de apetito, etc.</p>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- Tipos -->
+ <div data-role="page" id="tipos" >   
+  <div data-role="header">
+    <h1>Causas</h1>
+    
+    <a href="#mipanel" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars"></a>
+    
+    <div data-role="panel" data-position="left" id="mipanel" data-display="overlay">
+   <ul data-role="listview">
+   <li><a href="#principal" id="btnprincipal"   data-transition="pop" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ui-corner-all">Violencia y sus fases</a></li>	
+   
+ <li><a href="#tipos" id="btntipos"   data-transition="pop" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all">Tipos de violencia</a></li>
+ 
+ <li><a href="#factores" id="btnfactores"   data-transition="pop" class="ui-btn ui-icon-alert ui-btn-icon-right ui-shadow ui-corner-all">Factores de riesgo</a></li>
+ 
+ <li><a href="#test" id="btntest"   data-transition="pop" class="ui-btn ui-icon-edit ui-btn-icon-right ui-shadow ui-corner-all">Test y ayuda</a></li>
+ 
+ <li><a href="#galeria" id="btngaleria"   data-transition="pop" class="ui-btn ui-icon-camera ui-btn-icon-right ui-shadow ui-corner-all">Galería</a></li>
+ 
+  <li><a href="#video" id="btnvideo"   data-transition="pop" class="ui-btn ui-icon-video ui-btn-icon-right ui-shadow ui-corner-all">Video</a></li>
+  </ul>	 		
+ </div>
+    
+  </div>
+
+  <div data-role="main" class="ui-content" align="justify">
+    <h3>Psicológica</h3>
+    <p>Son acciones orientadas a controlar, restringir los movimientos o vigilar a la otra persona; aislarla socialmente; desvalorizarla, denigrarla, humillarla o hacerla sentir mal consigo misma; hacer que otros se pongan en su contra, acusarla falsamente o culparla por circunstancias negativas; obligarla a ir en contra de la ley o de sus creencias morales y/o religiosas; destruir su confianza en sí misma o en la pareja. Las conductas más frecuentes son:</p>
+    <ul type="square">
+     <li>Decir que eres acreedor(a) de un golpe (aunque no lo lleve a cabo).</li>
+     <li>Celos excesivos.</li>
+     <li>Llamar varias veces al día para averiguar que está haciendo el otro.</li>
+     <li>Controlar su tiempo o sus actividades cotidianas.</li>
+     <li>Imponer el punto de vista.</li>
+     <li>Acusar injustamente de ser infiel.</li>
+     <li>Tratar de cambiar el modo de vestir del otro.</li>
+    </ul>
+    
+    <h3>Emocional</h3>
+    <p>Son actos de naturaleza verbal o no verbal que generan intencionalmente en la víctima ansiedad, temor o miedo, tal como las intimidaciones y las amenazas. Incluye las amenazas o los actos de violencia dirigidos a un familiar o a un conocido de la víctima, a sus bienes o hacia el agresor mismo, realizados con el mismo fin. Las conductas más frecuentes son:</p>
+    <ul type="square">
+     <li>Llegar borracho(a) a la casa a hacer escándalo.</li>
+     <li>Maltrato físico, después llorar y alegar que él/ella es el amor de tu vida y que no habrá dos como él/ella.</li>
+     <li>Romper o destruir algún bien personal del otro intencionalmente.</li>
+     <li>Amenazar con tener una relación con otra persona.</li>
+     <li>Amenazar con hacerse daño a sí mismo(a), si el otro no hacía algo que él/ella dijo.</li>
+    </ul>
+    
+    <h3>Física</h3>
+    <p>Son actos sobre el cuerpo de la persona, que producen daño o dolor sobre la misma (golpes, jalones, tirones, patadas, cachetadas, mordidas, pellizcos, intento de estrangulamiento, etc.). Las conductas más frecuentes son:</p>
+     <ul type="square">
+     <li>Apretar fuerte con intención de retener.</li>
+     <li>Golpear con una parte del cuerpo (con el puño, un pie, etc).</li>
+     <li>Incluso matar a la víctima.</li>
+    </ul>
+    
+    <h3>Económica y patrimonial</h3>
+    <p>Cuando se fuerza a la otra persona a depender económicamente del agresor, no dejándola trabajar o por otros medios; ejercer control sobre los recursos financieros de la víctima o explotarla económicamente. Las conductas más frecuentes son:</p>
+    <ul type="square">
+     <li>No permitirle trabajar o estudiar u obligar a abandonar un trabajo o unos estudios que venía realizando.</li>
+    </ul>
+    
+    <h3>Sexual</h3>
+    <p>Son actos obligados, no consentidos por la víctima, orientados a satisfacer necesidades o deseos sexuales del o la victimario/a. Las conductas más frecuentes son:</p>
+    <ul type="square">
+    <li>Forzar a tener relaciones sexuales.</li>
+    <li>Obligar a tener comportamientos sexuales que no le agradaban o con los que no se sentía a gusto.</li>
+    </ul>
+    
+  </div>
+
+ 
+ </div>  
+ <!-- Tipos -->
+ 
+ <!-- Factores -->
+ <div data-role="page" id="factores" >   
+  <div data-role="header">
+    <h1>Factores de riesgo</h1>
+    
+    <a href="#mipanel" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars"></a>
+    
+    <div data-role="panel" data-position="left" id="mipanel" data-display="overlay">
+   <ul data-role="listview">
+   <li><a href="#principal" id="btnprincipal"   data-transition="pop" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ui-corner-all">Violencia y sus fases</a></li>	
+   
+ <li><a href="#tipos" id="btntipos"   data-transition="pop" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all">Tipos de violencia</a></li>
+ 
+ <li><a href="#factores" id="btnfactores"   data-transition="pop" class="ui-btn ui-icon-alert ui-btn-icon-right ui-shadow ui-corner-all">Factores de riesgo</a></li>
+ 
+ <li><a href="#test" id="btntest"   data-transition="pop" class="ui-btn ui-icon-edit ui-btn-icon-right ui-shadow ui-corner-all">Test y ayuda</a></li>
+ 
+ <li><a href="#galeria" id="btngaleria"   data-transition="pop" class="ui-btn ui-icon-camera ui-btn-icon-right ui-shadow ui-corner-all">Galería</a></li>
+ 
+  <li><a href="#video" id="btnvideo"   data-transition="pop" class="ui-btn ui-icon-video ui-btn-icon-right ui-shadow ui-corner-all">Video</a></li>
+  </ul>	 		
+ </div>
+    
+  </div>
+
+  <div data-role="main" class="ui-content" align="justify">
+    <p>Existen una cantidad de factores que tiene correlación estadística con el hecho de ser víctima o perpetrador de violencia, lo cual no significa que sean las causas de la violencia. Estos factores son:</p>
+    
+    <h3>Individuales</h3>
+    <p>Los factores relacionados con el hecho de ser perpetrador de violencia son:</p>
+    <ul type="circle">
+     <li>Haber estado expuesto en la niñez a modelos de agresión inter-parentales.</li>
+     <li>Admitir la violencia como método de resolución de conflictos interpersonales.</li>
+     <li>Alto nivel de ira.</li>
+     <li>Bajo nivel de autoestima.</li>
+     <li>Actitudes sexistas o ideas patriarcales.</li>
+    </ul>  
+    <br>
+    <p>Los factores relacionados con la victimización son:</p>
+    <ul type="circle">
+    <li>Consumo de alcohol o drogas.</li>
+    <li>Sentimientos de desesperanza o baja autoestima.</li>
+    <li>Inicio temprano de las relaciones sexuales.</li>
+    <li>Mantener conductas sexuales de riesgo.</li>
+    <li>Embarazo.</li>
+    <li>Formas de control del peso no saludables.</li>
+    </ul>
+    
+    <h3>Relacionales</h3>
+    <p>Tanto para ser víctima como para ser perpetrador:</p>
+    <ul type="circle">
+    <li>Alta tasa de relaciones conflictivas y mayor número de parejas.</li>
+    </ul>
+    
+    <h3>Comunitarios</h3>
+    <ul type="circle">
+    <li>Altas concentraciones de pobreza.</li>
+    <li>Bajo nivel de participación comunitaria, de organización social.</li>
+    <li>Exposición a la violencia en la comunidad.</li>
+    </ul>
+   
+    
+    <h3>Relacionados con el grupo de iguales</h3>
+    <ul type="circle">
+    <li>Tener amigos que han sufrido violencia en la pareja.</li>
+    <li>Tener amigos que utilizan la violencia</li>
+    </ul>
+  </div>
+
+ 
+ </div>  
+ <!-- Factores -->
+ 
+ 
+  <!-- Test -->
+ <div data-role="page" id="test" >   
+  <div data-role="header">
+    <h1>Test</h1>
+    
+    <a href="#mipanel" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars"></a>
+    
+    <div data-role="panel" data-position="left" id="mipanel" data-display="overlay">
+   <ul data-role="listview">
+   <li><a href="#principal" id="btnprincipal"   data-transition="pop" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ui-corner-all">Violencia y sus fases</a></li>	
+   
+ <li><a href="#tipos" id="btntipos"   data-transition="pop" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all">Tipos de violencia</a></li>
+ 
+ <li><a href="#factores" id="btnfactores"   data-transition="pop" class="ui-btn ui-icon-alert ui-btn-icon-right ui-shadow ui-corner-all">Factores de riesgo</a></li>
+ 
+ <li><a href="#test" id="btntest"   data-transition="pop" class="ui-btn ui-icon-edit ui-btn-icon-right ui-shadow ui-corner-all">Test y Ayuda</a></li>
+ 
+ <li><a href="#galeria" id="btngaleria"   data-transition="pop" class="ui-btn ui-icon-camera ui-btn-icon-right ui-shadow ui-corner-all">Galería</a></li>
+ 
+  <li><a href="#video" id="btnvideo"   data-transition="pop" class="ui-btn ui-icon-video ui-btn-icon-right ui-shadow ui-corner-all">Video</a></li>
+  </ul>	 		
+ </div>
+    
+  </div>
+
+  <div data-role="main" class="ui-content" align="justify">
+    <p>La violencia en el noviazgo es una conducta peligrosa por ello es importante que detectes a tiempo si tu pareja tiende a mostrar signos de agresión en tu contra. A continuación te dejaremos una lista de 14 preguntas que debes contestar a conciencia si tu respuesta es "si" en más de 7 preguntas te recomendamos que busques ayuda para solucionar este problema.</p>
+    
+    <div align="center">
+    <h3>¡¡¡SUERTE!!!</h3>
+    </div>
+    
+    <h4>Tu novio/a…</h4>
+    <ul type="disc">
+     <li><p>Te cela de amigos/as, compañeros/as de trabajo o familiares.</p></li>
+     <li><p>Te ha agredido físicamente, cacheteado, rasguñado o golpeado.</p></li>
+     <li><p>Insiste en saber con quién andas.</p></li>
+     <li><p>Ha esculcado tus pertenencias con el pretexto de conocer “la verdad”.</p></li>
+     <li><p>Te ha hecho escenitas o panchos en la calle, en su casa o en la tuya.</p></li>
+     <li><p>Te ha amenazado con dejarte.</p></li>
+     <li><p>Cuando se enoja se queda en silencio.</p></li>
+     <li><p>Te ha tocado, besado o acariciado sin tu consentimiento.</p></li>
+     <li><p>Te ha presionado para hacer dietas, ejercicio o te dice gorda. </p></li>
+     <li><p>Él/ella decide qué día y hora para verte.</p></li>
+     <li><p>Te ha amenazado con suicidarse.</p></li>
+     <li><p>Te llama por celular cada rato para saber dónde estás y con quién andas.</p></li>
+     <li><p>Has sentido miedo de sus reacciones.</p></li>
+     <li><p>Te compara con sus ex novias/os.</p></li>
+    </ul>
+    
+    <p>Si consideras que necesitas ayuda profesional puedes consultar algunos de estos centros de ayuda, la mayoría de los organismo ayudan a la mujer pero en otros puedes conseguir asesoría si eres hombre, usualmente brindan sus servicios gratuitamente pero para evitar algún mal entendido te sugerimos que pidas informes previamente.</p>
+    
+    <div style="width:75%">
+    <h4>Centros de orientación y ayuda:</h4>
+     <ol>
+     <li>Instituto Nacional de las Mujeres</li>
+     <br>
+     <li>Comision de Derechos Humanos</li>
+     <br>
+     <li>Delegaciones</li>
+     <br>
+     <li>Desarrollo Integral de la Familia (DIF)</li>
+     <br>
+     <li>Fondo de Desarollo de las Naciones Unidas para la Mujer</li>
+     <br>
+     <li>(UNIFEM)</li>
+     <br>
+     <li>Sociedad Mexicana Pro-Derechos de la Mujer, A.C. Teléfono: 56 61 20 74</li>
+     <br>
+     <li>Asociación para el Desarrollo Integral de Personas Violadas, A.C. . Teléfonos: 56 82 79 69 y 55 43 47 00.</li>
+     <br>
+     <li>Asociación Mexicana contra laViolencia a las Mujeres, A. C. (COVAC) Astrónomos 66 Col. Escandón Tels. 5276 00 85 y 5515 17 56 E-mail: covacmex@laneta.apc.org.</li>
+     <br>
+     <li>Católicas por el Derecho a Decidir, A.C. San Francisco Figuraco 71-A Coyoacán Tels. 5554 57 48 y 5659 28 43</li>
+     <br>
+     <li>Centro de Atención a la Violencia Intrafamiliar (CAVI) Doctor Carmona y Valle 54, Piso 2 Col. Doctores Tel. 5242 62 46 Fax: 5242 62 48.</li>
+     <br>
+     <li>Asociación para la Defensa de la Mujer, IAP. Teléfono: 55 75 85 47 y 55 75 01 52</li>
+     <br>
+     <li>Prodignificación de la Mujer, IAP. Presidenta del Patronato: Dra. Gloria Casorla, Teléfono: 55 78 12 29 y 55 78 83 62 Armonía Familiar, IAP. Presidente del Patronato: Oscar Franco Salazar Teléfono: 52 54 69 33 y 52 54 62 32</li>
+     <br>
+     <li>Fundación Alianza a favor de la Mujer, IAP. Teléfono: 56 05 07 94 y 56 05 87 30</li>
+     <br>
+     <li>Instituto de Reconciliación para la Mujer que ha Abortado. Teléfono: 52 60 72 73.</li>
+     <br>
+     <li>Despacho de Atención Legal para Mujeres. Coatepec 1-3 Col. Roma Sur Tel. 5264 69 5</li>
+     <br>
+     <li>Centro de Apoyo a la Mujer Margarita Magón, A.C. Carlos Pereira 113 Col. Viaducto Piedad Tel. 5519 58 45 E-mail: marmagon@laneta.apc.org</li>
+    </ol>
+    </div>  
+   
+  </div>
+
+  <div data-role="footer">
+    <h1>@Huevito</h1>
+  </div>
+ </div>  
+ <!-- Test -->
+ 
+ <!-- Galería -->
+ <div data-role="page" id="galeria" >   
+  <div data-role="header">
+    <h1>Galería</h1>
+    
+    <a href="#mipanel" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars"></a>
+    
+    <div data-role="panel" data-position="left" id="mipanel" data-display="overlay">
+   <ul data-role="listview">
+   <li><a href="#principal" id="btnprincipal"   data-transition="pop" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ui-corner-all">Violencia y sus fases</a></li>	
+   
+ <li><a href="#tipos" id="btntipos"   data-transition="pop" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all">Tipos de violencia</a></li>
+ 
+ <li><a href="#factores" id="btnfactores"   data-transition="pop" class="ui-btn ui-icon-alert ui-btn-icon-right ui-shadow ui-corner-all">Factores de riesgo</a></li>
+ 
+ <li><a href="#test" id="btntest"   data-transition="pop" class="ui-btn ui-icon-edit ui-btn-icon-right ui-shadow ui-corner-all">Test y ayuda</a></li>
+ 
+ <li><a href="#galeria" id="btngaleria"   data-transition="pop" class="ui-btn ui-icon-camera ui-btn-icon-right ui-shadow ui-corner-all">Galería</a></li>
+ 
+  <li><a href="#video" id="btnvideo"   data-transition="pop" class="ui-btn ui-icon-video ui-btn-icon-right ui-shadow ui-corner-all">Video</a></li>
+  </ul>	 		
+ </div>
+    
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+    <div align="center">
+    <a href="#1" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/1.jpg" style="width:12%;">
+    </a>
+    
+    <a href="#2" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/2.jpg" style="width:12%;">
+    </a>
+    
+    <a href="#3" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/3.jpg" style="width:12%;">
+    </a>
+    </div>
+    
+    <div align="center">
+    <a href="#4" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/4.jpg" style="width:12%;">
+    </a>
+    
+    <a href="#5" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/5.jpg" style="width:12%;">
+    </a>
+    
+    <a href="#6" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/6.jpg" style="width:12%;">
+    </a>
+    </div>
+    
+    <div align="center">
+    <a href="#7" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/7.jpg" style="width:12%;">
+    </a>
+    
+    <a href="#8" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/8.jpeg" style="width:12%;">
+    </a>
+    
+    <a href="#9" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/9.jpg" style="width:12%;">
+    </a>
+    </div>
+    
+    <div align="center">
+    <a href="#10" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/10.jpg" style="width:12%;">
+    </a>
+    
+    <a href="#11" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/11.jpg" style="width:12%;">
+    </a>
+    
+    <a href="#12" data-rel="popup" data-position-to="window" data-transition="fade">
+     <img src="images/violencia/12.jpg" style="width:12%;">
+    </a>
+    </div>
+    
+    <div data-role="popup" id="1" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/1.jpg" style="max-height:300px">
+    </div>
+  
+  <div data-role="popup" id="2" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/2.jpg" style="max-height:300px">
+    </div>
+  
+  <div data-role="popup" id="3" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/3.jpg" style="max-height:300px">
+    </div>
+
+<div data-role="popup" id="4" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/4.jpg" style="max-height:300px">
+    </div>
+
+<div data-role="popup" id="5" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/5.jpg" style="max-height:300px">
+    </div>
+
+<div data-role="popup" id="6" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/6.jpg" style="max-height:300px">
+    </div>
+
+<div data-role="popup" id="7" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/7.jpg" style="max-height:300px">
+    </div>
+    
+<div data-role="popup" id="8" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/8.jpeg" style="max-height:300px">
+    </div>
+    
+    <div data-role="popup" id="9" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/9.jpg" style="max-height:300px">
+    </div>
+    
+    <div data-role="popup" id="10" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/10.jpg" style="max-height:300px">
+    </div>
+    
+    <div data-role="popup" id="11" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/11.jpg" style="max-height:300px">
+    </div>
+    
+    <div data-role="popup" id="12" data-overlay-theme="b" data-theme="b" data-corners="false">
+     <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+     <img src="images/violencia/12.jpg" style="max-height:300px">
+    </div>
+  
+  </div>
+<br>
+<br>
+  <div data-role="footer">
+    <h1>@Huevito</h1>
+  </div>
+ </div>  
+ <!-- Galería -->
+ 
+ <!-- Video -->
+ <div data-role="page" id="video" >   
+  <div data-role="header">
+    <h1>Video</h1>
+    
+    <a href="#mipanel" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-bars"></a>
+    
+    <div data-role="panel" data-position="left" id="mipanel" data-display="overlay">
+   <ul data-role="listview">
+   <li><a href="#principal" id="btnprincipal"   data-transition="pop" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ui-corner-all">Violencia y sus fases</a></li>	
+   
+ <li><a href="#tipos" id="btntipos"   data-transition="pop" class="ui-btn ui-icon-check ui-btn-icon-right ui-shadow ui-corner-all">Tipos de violencia</a></li>
+ 
+ <li><a href="#factores" id="btnfactores"   data-transition="pop" class="ui-btn ui-icon-alert ui-btn-icon-right ui-shadow ui-corner-all">Factores de riesgo</a></li>
+ 
+ <li><a href="#test" id="btntest"   data-transition="pop" class="ui-btn ui-icon-edit ui-btn-icon-right ui-shadow ui-corner-all">Test y ayuda</a></li>
+ 
+ <li><a href="#galeria" id="btngaleria"   data-transition="pop" class="ui-btn ui-icon-camera ui-btn-icon-right ui-shadow ui-corner-all">Galería</a></li>
+ 
+  <li><a href="#video" id="btnvideo"   data-transition="pop" class="ui-btn ui-icon-video ui-btn-icon-right ui-shadow ui-corner-all">Video</a></li>
+  </ul>	 		
+ </div>
+    
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+  <br>
+  <br>
+    <video width="500" height="300" controls>
+  <source src="video/VIOLENCIA_EN_EL_NOVIAZGO.mp4" type="video/mp4">
+</video>
+
+  </div>
+
+<br>
+<br>
+
+  <div data-role="footer">
+    <h1>@Huevito</h1>
+  </div>
+ </div>  
+ <!-- Video -->
+
+ </body>
+</html> 
