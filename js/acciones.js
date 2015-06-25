@@ -7,24 +7,22 @@ document.addEventListener("deviceready",function(){
 	});
 	
 	$('#btntipos').on('tap',function(){
-	navigator.vibrate(1000);
-	});
+	navigator.notification.beep(2);
+});
 	
 	$('#btnfactores').on('tap',function(){
 	navigator.vibrate(1000);
 	});
 	
 	$('#btntest').on('tap',function(){
-	navigator.vibrate(1000);
-	});
+	navigator.notification.beep(2);
+});
 	
 	$('#btngaleria').on('tap',function(){
 	navigator.vibrate(1000);
 	});
 	
-	$('#btnvideo').on('tap',function(){
-	navigator.vibrate(1000);
-	});
+	
 }); 
 });
 
